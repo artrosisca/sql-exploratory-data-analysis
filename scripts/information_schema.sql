@@ -1,0 +1,6 @@
+-- Explorar TODOS Objetos na Database
+SELECT * FROM INFORMATION_SCHEMA.TABLES
+
+-- Explorar TODAS Colunas na Database
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'dim_customers'
